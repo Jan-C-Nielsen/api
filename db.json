@@ -21,6 +21,13 @@
         "price": 79.99,
         "description": "Durable CD player with multiple features.",
         "imageUrl": "http://localhost:4000/public/images/Exp_2010S_CD.jpg"
+      },
+      {
+        "id": 36,
+        "name": "Denon CD Player",
+        "price": 69.99,
+        "description": "Affordable CD player with great sound quality.",
+        "imageUrl": "http://localhost:4000/public/images/Exp_2010S_CD.jpg"
       }
     ],
     "DVDplayers": [
@@ -44,6 +51,13 @@
         "price": 99.99,
         "description": "Reliable DVD player with excellent performance.",
         "imageUrl": "http://localhost:4000/public/images/parasound_halod3.jpg"
+      },
+      {
+        "id": 35,
+        "name": "Sony DVD Player",
+        "price": 89.99,
+        "description": "Affordable DVD player with great picture quality.",
+        "imageUrl": "http://localhost:4000/public/images/parasound_halod2.jpg"
       }
     ],
     "BluRayplayers": [
@@ -66,6 +80,13 @@
         "name": "Panasonic Blu-ray Player",
         "price": 159.99,
         "description": "High-performance Blu-ray player with Dolby Atmos support.",
+        "imageUrl": "http://localhost:4000/public/images/"
+      },
+      {
+        "id": 34,
+        "name": "Samsung Blu-ray Player",
+        "price": 139.99,
+        "description": "Affordable Blu-ray player with excellent picture quality.",
         "imageUrl": "http://localhost:4000/public/images/"
       }
     ],
@@ -90,6 +111,13 @@
         "price": 399.99,
         "description": "Premium amplifier with exceptional audio quality.",
         "imageUrl": "http://localhost:4000/public/images/parasound_haloa235.jpg"
+      },
+      {
+        "id": 33,
+        "name": "Onkyo Amplifier",
+        "price": 449.99,
+        "description": "High-performance amplifier with multiple features.",
+        "imageUrl": "http://localhost:4000/public/images/parasound_haloa23.jpg"
       }
     ],
     "speakers": [
@@ -113,6 +141,13 @@
         "price": 179.99,
         "description": "Compact speakers with powerful audio performance.",
         "imageUrl": "http://localhost:4000/public/images/harbeth_hl7es2.jpg"
+      },
+      {
+        "id": 32,
+        "name": "KEF Speakers",
+        "price": 299.99,
+        "description": "High-fidelity speakers with exceptional sound quality.",
+        "imageUrl": "http://localhost:4000/public/images/harbeth_hl5plus.jpg"
       }
     ],
     "preamplifier": [
@@ -136,6 +171,13 @@
         "price": 599.99,
         "description": "Premium preamplifier with exceptional audio performance.",
         "imageUrl": "http://localhost:4000/public/images/parasound_halop3.jpg"
+      },
+      {
+        "id": 31,
+        "name": "Creek Preamplifier",
+        "price": 649.99,
+        "description": "High-fidelity preamplifier with advanced features.",
+        "imageUrl": "http://localhost:4000/public/images/creek_a50i.jpg"
       }
     ],
     "integratedamplifiers": [
@@ -159,6 +201,13 @@
         "price": 799.99,
         "description": "Powerful integrated amplifier with advanced audio processing.",
         "imageUrl": "http://localhost:4000/public/images/creek_destinyamp.jpg"
+      },
+      {
+        "id": 30,
+        "name": "Cambridge Audio Integrated Amplifier",
+        "price": 849.99,
+        "description": "High-fidelity integrated amplifier with exceptional sound.",
+        "imageUrl": "http://localhost:4000/public/images/creek_evo_100.jpg"
       }
     ],
     "pipeamplifiers": [
@@ -182,6 +231,13 @@
         "price": 999.99,
         "description": "Iconic pipe amplifier with rich tonal quality.",
         "imageUrl": "http://localhost:4000/public/images/jolida_JD300b.jpg"
+      },
+      {
+        "id": 29,
+        "name": "Orange Pipe Amplifier",
+        "price": 1049.99,
+        "description": "High-performance pipe amplifier with exceptional sound.",
+        "imageUrl": "http://localhost:4000/public/images/jolida_JD502b.jpg"
       }
     ],
     "turntables": [
@@ -205,6 +261,13 @@
         "price": 399.99,
         "description": "High-performance turntable with exceptional audio quality.",
         "imageUrl": "http://localhost:4000/public/images/Pro_ject_rpm10.jpg"
+      },
+      {
+        "id": 28,
+        "name": "Technics Turntable",
+        "price": 449.99,
+        "description": "Iconic turntable with legendary sound quality.",
+        "imageUrl": "http://localhost:4000/public/images/Pro_ject_rpm_9.jpg"
       }
     ]
   }
