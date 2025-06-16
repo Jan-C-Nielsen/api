@@ -1,67 +1,211 @@
 {
-  "users": [
-    {
-      "id": 1,
-      "email": "clu@mail.dk",
-      "username": "Carsten",
-      "password": "$2a$10$bbeRYksb2wHNhyc3Zeq9aOSVM0gIJ2qbnqD.PCQqbA/RTw2jqfbQS",
-      "name": "Carsten Lund"
-    },
-    {
-      "email": "be@rts.dk",
-      "password": "$2a$10$UfP6k.L1l0g2bVXilU1m4.urko74nX91sSxAmyMexBAexh5kHrdmK",
-      "id": 2
-    },
-    {
-      "email": "scriwe@gmail.com",
-      "password": "$2a$10$/4N8oPAdX26w3xSoXsg1TufiV2Lh8Bp7aHPFiUNqYM6pVLCOjji2i",
-      "username": "jan",
-      "confirmpassword": "hhhhhhhhh",
-      "id": 3
-    }
-  ],
-  "secrets": [
-    {
-      "id": 1001,
-      "quote": "Three may keep a secret, if two of them are dead.",
-      "author": "Benjamin Franklin",
-      "origin": "Poor Richard's Almanack"
-    },
-    {
-      "id": 1002,
-      "quote": "If you want to keep a secret, you must also hide it from yourself.",
-      "author": "George Orwell",
-      "origin": "1984"
-    },
-    {
-      "id": 1003,
-      "quote": "Secrets, silent, stony sit in the dark palaces of both our hearts: secrets weary of their tyranny: tyrants willing to be dethroned.",
-      "author": "James Joyce",
-      "origin": "Ulysses"
-    },
-    {
-      "id": 1004,
-      "quote": "We dance round in a ring and suppose, but the secret sits in the middle and knows.",
-      "author": "Robert Frost",
-      "origin": "The Secret Sits"
-    }
-  ],
-  "statements": [
-    {
-      "id": 2001,
-      "sentence": "This coffee shop is cozy."
-    },
-    {
-      "id": 2002,
-      "sentence": "It is never too late to learn."
-    },
-    {
-      "id": 2003,
-      "sentence": "These socks do not match."
-    },
-    {
-      "id": 2004,
-      "sentence": "I am interested in music."
-    }
-  ]
+  "products": {
+    "CDplayers": [
+      {
+        "id": 1,
+        "name": "Sony CD Player",
+        "price": 99.99,
+        "description": "High-quality CD player with excellent sound.",
+        "imageUrl": "http://localhost:4000/public/images/cdplayers/creek_classic_cd.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Philips CD Player",
+        "price": 89.99,
+        "description": "Compact and portable CD player.",
+        "imageUrl": "http://localhost:4000/public/images/cdplayers/creek_evo_cd.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Panasonic CD Player",
+        "price": 79.99,
+        "description": "Durable CD player with multiple features.",
+        "imageUrl": "http://localhost:4000/public/images/Exp_2010S_CD.jpg"
+      }
+    ],
+    "DVDplayers": [
+      {
+        "id": 4,
+        "name": "Samsung DVD Player",
+        "price": 129.99,
+        "description": "Multi-format DVD player with HDMI output.",
+        "imageUrl": "http://localhost:4000/public/images/exposure_2010S.jpg"
+      },
+      {
+        "id": 5,
+        "name": "LG DVD Player",
+        "price": 109.99,
+        "description": "Compact DVD player with USB playback.",
+        "imageUrl": "http://localhost:4000/public/images/parasound_d200.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Toshiba DVD Player",
+        "price": 99.99,
+        "description": "Reliable DVD player with excellent performance.",
+        "imageUrl": "http://localhost:4000/public/images/parasound_halod3.jpg"
+      }
+    ],
+    "BluRayplayers": [
+      {
+        "id": 7,
+        "name": "Sony Blu-ray Player",
+        "price": 199.99,
+        "description": "4K Ultra HD Blu-ray player with smart features.",
+        "imageUrl": "http://localhost:4000/public/images/"
+      },
+      {
+        "id": 8,
+        "name": "LG Blu-ray Player",
+        "price": 179.99,
+        "description": "Compact Blu-ray player with streaming capabilities.",
+        "imageUrl": "http://localhost:4000/public/images/"
+      },
+      {
+        "id": 9,
+        "name": "Panasonic Blu-ray Player",
+        "price": 159.99,
+        "description": "High-performance Blu-ray player with Dolby Atmos support.",
+        "imageUrl": "http://localhost:4000/public/images/"
+      }
+    ],
+    "amplifier": [
+      {
+        "id": 10,
+        "name": "Yamaha Amplifier",
+        "price": 299.99,
+        "description": "High-fidelity amplifier with multiple inputs.",
+        "imageUrl": "http://localhost:4000/public/images/parasound_haloa23.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Denon Amplifier",
+        "price": 349.99,
+        "description": "Powerful amplifier with advanced sound processing.",
+        "imageUrl": "http://localhost:4000/public/images/parasound_haloa235.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Marantz Amplifier",
+        "price": 399.99,
+        "description": "Premium amplifier with exceptional audio quality.",
+        "imageUrl": "http://localhost:4000/public/images/parasound_haloa235.jpg"
+      }
+    ],
+    "speakers": [
+      {
+        "id": 13,
+        "name": "Bose Speakers",
+        "price": 249.99,
+        "description": "High-quality speakers with deep bass.",
+        "imageUrl": "http://localhost:4000/public/images/boesendorfer_vcs_wall.jpg"
+      },
+      {
+        "id": 14,
+        "name": "JBL Speakers",
+        "price": 199.99,
+        "description": "Portable speakers with excellent sound clarity.",
+        "imageUrl": "http://localhost:4000/public/images/epos_m5.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Sony Speakers",
+        "price": 179.99,
+        "description": "Compact speakers with powerful audio performance.",
+        "imageUrl": "http://localhost:4000/public/images/harbeth_hl7es2.jpg"
+      }
+    ],
+    "preamplifier": [
+      {
+        "id": 16,
+        "name": "Cambridge Audio Preamplifier",
+        "price": 499.99,
+        "description": "High-end preamplifier with multiple inputs.",
+        "imageUrl": "http://localhost:4000/public/images/Creek_OBH_22_Passive_Preamp.jpg"
+      },
+      {
+        "id": 17,
+        "name": "NAD Preamplifier",
+        "price": 549.99,
+        "description": "Advanced preamplifier with superior sound quality.",
+        "imageUrl": "http://localhost:4000/public/images/parasound_classic7100.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Rotel Preamplifier",
+        "price": 599.99,
+        "description": "Premium preamplifier with exceptional audio performance.",
+        "imageUrl": "http://localhost:4000/public/images/parasound_halop3.jpg"
+      }
+    ],
+    "integratedamplifiers": [
+      {
+        "id": 19,
+        "name": "Onkyo Integrated Amplifier",
+        "price": 699.99,
+        "description": "High-performance integrated amplifier with multiple features.",
+        "imageUrl": "http://localhost:4000/public/images/creek_a50Ii.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Marantz Integrated Amplifier",
+        "price": 749.99,
+        "description": "Premium integrated amplifier with superior sound quality.",
+        "imageUrl": "http://localhost:4000/public/images/creek_classic5350SE.jpg"
+      },
+      {
+        "id": 21,
+        "name": "Yamaha Integrated Amplifier",
+        "price": 799.99,
+        "description": "Powerful integrated amplifier with advanced audio processing.",
+        "imageUrl": "http://localhost:4000/public/images/creek_destinyamp.jpg"
+      }
+    ],
+    "pipeamplifiers": [
+      {
+        "id": 22,
+        "name": "Fender Pipe Amplifier",
+        "price": 899.99,
+        "description": "Vintage-style pipe amplifier with warm sound.",
+        "imageUrl": "http://localhost:4000/public/images/jolida_JD102b.jpg"
+      },
+      {
+        "id": 23,
+        "name": "Marshall Pipe Amplifier",
+        "price": 949.99,
+        "description": "Classic pipe amplifier with powerful audio output.",
+        "imageUrl": "http://localhost:4000/public/images/jolida_JD202a.jpg"
+      },
+      {
+        "id": 24,
+        "name": "Vox Pipe Amplifier",
+        "price": 999.99,
+        "description": "Iconic pipe amplifier with rich tonal quality.",
+        "imageUrl": "http://localhost:4000/public/images/jolida_JD300b.jpg"
+      }
+    ],
+    "turntables": [
+      {
+        "id": 25,
+        "name": "Audio-Technica Turntable",
+        "price": 299.99,
+        "description": "High-quality turntable with excellent sound reproduction.",
+        "imageUrl": "http://localhost:4000/public/images/Pro_ject_Debut_3_bl.jpg"
+      },
+      {
+        "id": 26,
+        "name": "Pro-Ject Turntable",
+        "price": 349.99,
+        "description": "Premium turntable with advanced features.",
+        "imageUrl": "http://localhost:4000/public/images/Pro_ject_rpm_5.jpg"
+      },
+      {
+        "id": 27,
+        "name": "Rega Turntable",
+        "price": 399.99,
+        "description": "High-performance turntable with exceptional audio quality.",
+        "imageUrl": "http://localhost:4000/public/images/Pro_ject_rpm10.jpg"
+      }
+    ]
+  }
 }
