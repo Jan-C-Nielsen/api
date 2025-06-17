@@ -270,5 +270,28 @@
         "imageUrl": "http://localhost:4000/public/images/Pro_ject_rpm_9.jpg"
       }
     ]
-  }
+  },
+  "contacts": [
+    {
+      "id": 1,
+      "email": "",
+      "message": "",
+      "name": "",
+      "subject": ""
+    },
+    {
+      "name": "Jan",
+      "email": "scriwe@gmail.com",
+      "subject": "test",
+      "message": "hallo",
+      "id": 2
+    },
+    {
+      "name": "Jannn",
+      "email": "scriwe@gmail.org",
+      "subject": "test2",
+      "message": "hallo igen",
+      "id": 3
+    }
+  ]
 }
