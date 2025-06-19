@@ -1,4 +1,13 @@
 {
+  "users": [
+    {
+      "id": 1,
+      "email": "clu@mail.dk",
+      "username": "Carsten",
+      "password": "$2a$10$bbeRYksb2wHNhyc3Zeq9aOSVM0gIJ2qbnqD.PCQqbA/RTw2jqfbQS",
+      "name": "Carsten Lund"
+    }
+  ],
   "products": [
     {
       "id": 1,
