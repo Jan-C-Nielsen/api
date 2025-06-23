@@ -15,7 +15,7 @@
       "name": "Sony CD Player",
       "price": 99.99,
       "description": "High-quality CD player with excellent sound.",
-      "imageUrl": "https://hifi-api-pzft.onrender.com/public/images/cdplayers/creek_classic_cd.jpg"
+      "imageUrl": "https://hifi-api-pzft.onrender.com/images/cdplayers/creek_classic_cd.jpg"
     },
     {
       "id": 2,
